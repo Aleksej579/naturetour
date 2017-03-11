@@ -1,8 +1,13 @@
 <div class="tabs">
     <ul class="tabNavigation">
+        <!--
         <li><a class="first" href="#first">  By Destination</a></li>
         <li><a class="second" href="#second">By Species</a></li>
         <li><a class="third" href="#third">  By Tour Type</a></li>
+        -->
+        <li><a class="first" href="#first"></a></li>
+        <li><a class="second" href="#second"></a></li>
+        <li><a class="third" href="#third"></a></li>
     </ul>
     <div id="first">
         <table>

@@ -50,45 +50,37 @@ article {
 }
 
 /*tab articl-----------------------*/
+.first {
+  background: url(/images/tab_990/tab_1.png) no-repeat;
+  width: 234px;  height: 45px;
+  float: left;  cursor: pointer;
+}
+.second {
+  background: url(/images/tab_990/tab_2.png) no-repeat;
+  width: 235px;  height: 45px;
+  float: left;  cursor: pointer;
+}
+.third {
+  background: url(/images/tab_990/tab_3.png) no-repeat;
+  width: 235px;  height: 45px;
+  float: left;  cursor: pointer;
+}
+
+.first:hover,
+.second:hover,
+.third:hover {
+  background-position: 0 -45px;
+}
+
 ul.tabNavigation {
   display:table;
   width:100%;
   height: 40px;
   table-layout:fixed;
-  line-height: 40px;
 }
 
 ul.tabNavigation li {
   display:table-cell;
-  background: linear-gradient(#ffffff, #f4f3f1);
-  text-align:center;
-  border:1px solid silver;
-}
-
-ul.tabNavigation li .first,
-ul.tabNavigation li .second,
-ul.tabNavigation li .third {
-  text-decoration: none;
-  color: #444137;
-  font-family: 'webfontregular', sans-serif;
-  font-size: 18px;
-}
-.first {
-  padding: 10px 28.55%;
-}
-.second {
-  padding: 10px 33.64%;
-}
-.third {
-  padding: 10px 31.1%;
-}
-
-ul.tabNavigation li a.selected,
-ul.tabNavigation li a.selected:hover {
-  background: linear-gradient(#66c23d, #0e9421);
-  color: white;
-  font-family: 'webfontregular', sans-serif;
-  text-shadow: 0px -2px 2px rgba(0, 0, 0, .3);
 }
 
 div.tabs div {
@@ -100,23 +92,24 @@ div.tabs div {
   article {width: 398px;}
   .article_photographer_img {display: none;}
   .article_photographer {width: 100%; margin-bottom: 20px;}
-  .first {padding: 10px 9px;}
-  .second {padding: 10px 21px;}
-  .third {padding: 10px 15px;}
+  .first {width: 120px; height: 35px; background: url(/images/tab_400/tab_1.png) no-repeat;}
+  .second {width: 121px; height: 35px; background: url(/images/tab_400/tab_2.png) no-repeat;}
+  .third {width: 121px; height: 35px; background: url(/images/tab_400/tab_3.png) no-repeat;}
+  .first:hover, .second:hover, .third:hover {background-position: 0 -35px;}
 }
 @media screen and (min-width:600px) and (max-width:800px) {
   article {width: 496px;}
   .article_photographer {width: 100%; margin-bottom: 20px;}
   .article_photographer_img {display: none;}
-  .first {padding: 10px 25px;}
-  .second {padding: 10px 35px;}
-  .third {padding: 10px 30px;}
+  .first {width: 153px; background: url(/images/tab_600/tab_1.png) no-repeat;}
+  .second {width: 153px; background: url(/images/tab_600/tab_2.png) no-repeat;}
+  .third {width: 154px; background: url(/images/tab_600/tab_3.png) no-repeat;}
 }
 @media screen and (min-width:800px) and (max-width:900px) {
   article {width: 596px;}
   .article_photographer {margin-right: 5px; margin-bottom: 20px;}
   .article_photographer_img {width: 190px;}
-  .first {padding: 10px 42px;}
-  .second {padding: 10px 54px;}
-  .third {padding: 10px 48px;}
+  .first {width: 186px; background: url(/images/tab_800/tab_1.png) no-repeat;}
+  .second {width: 187px; background: url(/images/tab_800/tab_2.png) no-repeat;}
+  .third {width: 187px; background: url(/images/tab_800/tab_3.png) no-repeat;}
 }
