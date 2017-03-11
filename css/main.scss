@@ -1,0 +1,62 @@
+/*modules*/
+@import "modules/nav/nav";
+@import "modules/header/header";
+@import "modules/footer/footer";
+@import "modules/pre_footer/pre_footer";
+@import "modules/slider/slider";
+@import "modules/aside/aside";
+@import "modules/article/article";
+/*import*/
+@import "import/fonts/fonts";
+/*base*/
+@import "base/textarea/textarea";
+@import "base/button/button";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+  background: url(/images/bg-1.jpg);
+}
+
+.link_home {
+  width: 994px;
+  margin: 0 auto 7px auto;
+  text-indent: 25px;
+}
+.link_home a {
+  color: #14961c;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+main {
+  width: 994px;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #e1dbce;
+  background-color: white;
+}
+
+html {
+  position:relative;
+  min-height:100%;
+}
+
+/*---respons ----------------------------------------------*/
+@media screen and (min-width:200px) and (max-width:600px) {
+  .link_home {width: 400px;}
+  main {width: 400px;}
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+  .link_home {width: 700px;}
+  main {width: 700px;}
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+  .link_home {width: 850px;}
+  main {width: 850px;}
+}

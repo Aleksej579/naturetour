@@ -1,0 +1,11 @@
+.img_btn {
+  width: 200px;
+  height: 80px;
+  float: left;
+  background: url(/images/search_holidays_.png) no-repeat;
+  cursor: pointer; }
+
+.img_btn:hover {
+  background-position: 0 -px; }
+
+/*# sourceMappingURL=button.css.map */

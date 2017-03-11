@@ -1,0 +1,24 @@
+.input_img_btn {
+  width: 200px;
+  height: 40px;
+  float: left;
+  background: url(/images/search_holidays_.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+.input_img_btn:hover {
+  background-position: 0 -40px;
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+  .img_btn {
+    width: 170px;
+    background: url(/images/search_holidays_min.png) no-repeat;
+    height: 34px;
+  }
+  .img_btn:hover {
+    background-position: 0 -33px;
+  }
+}

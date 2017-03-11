@@ -1,0 +1,76 @@
+header {
+  width: 994px;
+  margin: 20px auto 25px auto;
+}
+.logo_img {
+  position: relative;
+  top: 0;
+  left: 25px;
+  float: left;
+}
+.logo_wrapper {
+  float: left;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.logo_max {
+  font-family: 'klavika_mediumplain', sans-serif;
+  text-transform: uppercase;
+  color: #231f20;
+  font-size: 22px;
+}
+.logo_min {
+  font-family: 'myriadpro_semibold', sans-serif;
+  text-transform: uppercase;
+  color: #858689;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+.header_right {
+  float: right;
+  text-align: right;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.header_right_call {
+  color: #585755;
+  font-size: 8px;
+}
+.header_right_number {
+  color: #373737;
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+}
+.second_menu {
+  list-style:none;
+  float: right;
+}
+.second_menu li {
+  text-transform: uppercase;
+  font-family: 'zurich_btbold', sans-serif;
+  font-size: 9px;
+  float: left;
+  margin: 0 0 0 20px;
+}
+.second_menu li a {
+  text-decoration: none;
+  color: #209a28;
+}
+.second_menu li a:hover {
+  color: #4cae4c;
+}
+
+/*---respons ----------------------------------------------*/
+@media screen and (min-width:200px) and (max-width:600px) {
+  header {width: 400px;}
+  .header_right {display: none;}
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+  header {width: 700px;}
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+  header {width: 850px;}
+}

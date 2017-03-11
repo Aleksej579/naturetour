@@ -1,0 +1,19 @@
+aside {
+  width: 250px;
+  padding: 25px;
+  border: 1px solid white;
+  border-left: 1px solid #e1dbce;
+  float: right;
+  background-color: #f4f2ec;
+  color: #3f3b30;
+  border-radius: 0 4px 4px 0; }
+
+aside > h4 {
+  text-transform: uppercase; }
+
+.hr_aside {
+  height: 1px;
+  border-bottom: 1px solid white;
+  background-color: #e1dbce; }
+
+/*# sourceMappingURL=aside.css.map */

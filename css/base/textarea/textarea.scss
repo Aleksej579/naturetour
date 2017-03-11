@@ -1,0 +1,24 @@
+select, input, .aside_input_60, .aside_input_40 {
+  width: 100%;
+  height: 25px;
+  border: 1px solid #cfcdc5;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 0 0 5px #e8e5de;
+  background: linear-gradient(#ffffff, #f4f3f1);
+}
+
+.aside_input_60 {
+  width: 55%;
+}
+.aside_input_40 {
+  width: 35%;
+  float: right;
+  background: linear-gradient(#66c23d, #0e9421);
+  color: white;
+  font-family: 'zurich_btbold', sans-serif;
+  text-shadow: 0px -2px 2px rgba(0, 0, 0, .3);
+}
+.aside_input_40:hover {
+  background: linear-gradient(#0e9421, #66c23d);
+}

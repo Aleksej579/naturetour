@@ -1,0 +1,41 @@
+article {
+  width: calc(100% - 250px);
+  padding: 18px;
+  background-color: white;
+  float: left;
+  border-radius: 4px 0 0 4px; }
+
+.article_photographer_wrapper {
+  width: 100%;
+  margin: 50px 0 0 0; }
+
+.article_photographer {
+  width: 60%;
+  float: left;
+  margin-right: 50px; }
+
+.article_photographer_h2 {
+  font-family: 'zurich_btbold', sans-serif;
+  text-transform: uppercase; }
+
+.article_photographer_img {
+  position: relative;
+  bottom: -10px; }
+
+/*table--------------------*/
+.long {
+  width: 30%;
+  vertical-align: top; }
+
+.small {
+  width: 5%; }
+
+/*images article content*/
+.article_content_img {
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px #e8e5de;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=article.css.map */

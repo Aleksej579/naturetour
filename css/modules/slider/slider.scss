@@ -1,0 +1,77 @@
+.slider {
+  z-index: 9;
+  width: 704px;
+  height: 265px;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  border-radius: 7px;
+  font-family: 'webfontregular', sans-serif;
+}
+.slider ul,
+.slider li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.slider ul {
+  width: 9999px;
+}
+.slider ul li {
+  list-style-type: none;
+  float: left;
+  width: 700px;
+  height: 265px;
+}
+.slider .nav {
+  position: absolute;
+  right: 137px;
+  bottom: 12px;
+}
+.slider .nav span {
+  opacity: 0.9;
+  background: #fff;
+  margin: 0 8px 0 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  float: left;
+  box-shadow: 0 1px 2px #000;
+}
+.slider .nav span.on {
+  background: #2e9419;
+}
+
+figcaption {
+  width: 250px;
+  padding: 5px 0 5px 15px;
+  height: 100%;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(51, 42, 32, 0.5);
+  filter: alpha(Opacity=70);
+}
+
+/*---respons ----------------------------------------------*/
+@media screen and (min-width:200px) and (max-width:600px) {
+  .slider {width: 362px; height: 136px;}
+  figcaption {width: 100px; visibility: hidden;}
+  figure > img {width: 362px;}
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+  .slider {width: 460px; height: 172px;}
+  figcaption {width: 150px; font-size: 70%}
+  figure > img {width: 460px;}
+  .slider .nav {right: 25px;}
+}
+@media screen and (min-width:800px) and (max-width:900px) {
+  .slider {width: 560px; height: 210px;}
+  figcaption {width: 200px; font-size: 80%}
+  figure > img {width: 560px;}
+  .slider .nav {right: 50px;}
+}
